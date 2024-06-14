@@ -9,6 +9,7 @@ Namespace FuckMyBytes
     Public Module SecurityMeasurements
         Dim ReadOnly Utf8 As Encoding = Encoding.UTF8
 
+        ' pray it has the same password as the main app
         public Function GenUniquePass() as string
             dim machineId = ""
             dim diskUuid = ""
